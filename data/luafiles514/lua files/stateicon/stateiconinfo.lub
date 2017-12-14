@@ -252,9 +252,9 @@ StateIconList[EFST_IDs.EFST_NJ_BUNSINJYUTSU] = {
 }
 StateIconList[EFST_IDs.EFST_WUGRIDER] = {
 	descript = {
-		{ "Wug Rider", COLOR_TITLE_BUFF },
+		{ "Warg Rider", COLOR_TITLE_BUFF },
 		{ "Can't use a bow" },
-		{ "Can use only Wug skills" }
+		{ "Can use only Warg skills" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ATKER_BLOOD] = {
@@ -1673,7 +1673,7 @@ StateIconList[EFST_IDs.EFST_DANCE_WITH_WUG] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Dance With Wug", COLOR_TITLE_BUFF },
+		{ "Dance With Warg", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Increases ASPD" },
 		{ "Decreases fixed cast time" }
@@ -2162,7 +2162,7 @@ StateIconList[EFST_IDs.EFST_COCKTAIL_WARG_BLOOD] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Wug Blood Cocktail", COLOR_TITLE_BUFF },
+		{ "Warg Blood Cocktail", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Increases INT" }
 	}
@@ -4978,6 +4978,16 @@ StateIconList[EFST_IDs.EFST_INFINITY_DRINK] = {
 		{ "크리티컬 데미지, 원거리 물리 데미지," },
 		{ "속성 마법 공격력 증가" },
 		{ "캐스팅이 끊기지 않음" }
+	}
+}
+StateIconList[EFST_IDs.EFST_HUNTING_EVENT] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "사냥꾼의 만찬", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "고구마 회복량 증가" },
+		{ "고기 회복량 증가" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ABYSS_001] = {
